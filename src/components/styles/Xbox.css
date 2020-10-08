@@ -1,0 +1,99 @@
+.Principal {
+    background-image: linear-gradient(45deg, #A0F63E 0%, #70b32a 100%);    
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.Principal__contenedor {
+    background-color: #323234;
+    background-image: url('../../images/1.png');
+    background-position: top center;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    border-radius: 1vw;
+    width: 95%;
+    margin: 5vw auto;
+    -webkit-box-shadow: -10px 10px 8px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: -10px 10px 8px 1px rgba(0,0,0,0.25);
+    box-shadow: -10px 10px 8px 1px rgba(0,0,0,0.25);  
+}
+.Principal__logo {
+    width: 10vw;
+}
+.Principal__navbar {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1vw 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.Principal__navbar ul {
+    display: flex;
+    text-align: right;
+    justify-self: right;
+    color: white;
+}
+.Principal__navbar ul li {
+    text-transform: uppercase;
+    margin-left: 1.5vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+.Principal__texto {
+    color: white;
+    font-size: 1.5vw;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.boton {
+    width: 23vw;
+    margin-left: 5vw;
+    height: 4vw;
+    background-color: #A0F63E;
+    border-radius: .5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5vw;
+    color: #323234;
+    cursor: pointer;
+}
+.boton a{
+    color: #323234;
+}
+.separador {
+    background-color: #A0F63E;
+    width: 5%;
+    height: 1vw;
+    transform: skew(-15deg);
+}
+.Principal__lista {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3.5vw;
+    margin-bottom: 3vw;
+    grid-template-columns: .6fr .6fr 1.2fr;
+    grid-column-gap: 2vw;
+    color: white;
+}
+.Principal__lista .Next__page{
+    text-decoration: none;
+    color: #A0F63E;
+    font-weight: 700;
+}
+.sociales {
+    display: flex;
+    align-items: flex-end;
+    justify-self: right;
+}
+.sociales img {
+    width: 2vw;
+    margin-left: 1vw;
+}
